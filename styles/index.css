@@ -1,0 +1,210 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Setting style for elements besides the header elements on the index.html page */
+
+.modal {
+   display: none; 
+   position: fixed; 
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%; 
+   height: 100%; 
+   overflow: auto; 
+   background-color: rgb(0,0,0); 
+   background-color: rgba(0,0,0,0.4);
+ }
+ 
+ /* Modal Content/Box */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 15% auto; 
+   padding: 20px;
+   border: 1px solid #888;
+   width: 30%; 
+ }
+ 
+ /* The Close Button */
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ #head1{
+   font-family: 'Josefin Sans';
+   font-weight: 500;
+   text-align: center;
+ }
+ .sh6{
+   font-family: 'Josefin Sans';
+   font-weight: 500;
+ 
+ }
+ form{
+   border-top: 1px solid black;
+   width: 90%;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+   top:0px;
+   padding: 0%;
+   margin: 0%;
+ }
+ input[type=text]
+ {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: #f1f1f1;
+ }
+ input[type=password]
+ {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: #f1f1f1;
+ }
+ input[type=textbox]
+ {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: #f1f1f1;
+ }
+ #sub1{
+   background-color: #0ec038;
+   color: white;
+   text-align: center;
+   position: relative;
+   width: 100%;
+   padding: 15px;
+   top: 5px;
+   left: 50%;
+   transform: translate(-50%);
+   cursor: pointer;
+ }
+ #sub2{
+   background-color: #0ec038;
+   color: white;
+   text-align: center;
+   position: relative;
+   width: 20%;
+   padding: 15px;
+   top: 5px;
+   left: 50%;
+   transform: translate(-50%);
+   cursor: pointer;
+ }
+ #redirect
+ {
+   color: dodgerblue;
+   cursor: pointer;
+ }
+ 
+ 
+ .modal1{
+   display: none; 
+   position: fixed; 
+   z-index: 1; 
+   left: 0;
+   top: 0;
+   width: 100%; 
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0,0,0); 
+   background-color: rgba(0,0,0,0.4)
+ }
+ 
+ /* Modal Content/Box */
+ .modal-content1 {
+   background-color: #fefefe;
+   margin: 15% auto; 
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%; 
+ }
+ 
+ /* The Close Button */
+ .close1 {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close1:hover,
+ .close1:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ .modal-content1 {
+   background-color: #fefefe;
+   margin: 15% auto; 
+   padding: 20px;
+   border: 1px solid #888;
+   width: 30%; 
+ }
+ 
+ .modal2 {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#content
+{
+  height: 300px;
+  width: 1095px;
+}
+#title1{
+  width: 400px;
+}
