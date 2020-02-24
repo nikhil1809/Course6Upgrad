@@ -1,13 +1,96 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <!-- TODO: Include Font Awesome file here -->
-    <!-- TODO: Include Google Fonts file here -->
+
+    <link href='styles\common.css' rel='stylesheet' type='text/css'>
+    <link href='styles\index.css' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- TODO: Include all your code for the header and home page here -->
-</body>
+    <div id="main-container-div">
 
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <div class="signB">
+                <button class="btn" id="si">Sign In</button>
+                <button class="btn" id="su">Sign Up</button>
+            </div>
+            <div class="heading1">
+                ScriBBler
+            </div>
+            <div class="heading2">
+                Explore. Imagine. Create
+            </div>
+        </div>
+           
+        <div class="postButtons">
+
+            <!-- Insert code for All Posts & Create Post button here -->
+            <button class="btn1" id="allp" onclick= "window.location.href='html/postslist.html'"><b>All Posts</b></button>
+            <button class="btn1" id="createp"><b>Create Post</b></button>
+
+        </div>
+    </div>
+        <!-- Insert code for Sign In modal here -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h1 id="head1">Welcome Back!</h1>
+              <form>
+                    <h3 class="sh6">Username</h3>
+                    <input type="text" placeholder="Enter your username" required>
+                    <h3 class="sh6">Password</h3>
+                    <input type="password" placeholder="Enter your password" required>
+                    <button id="sub1">Sign In</button><br><br>
+                    <div id="nm">Not a member? <span id="redirect">Sign Up</span></div> 
+                  </form>
+            </div>
+          </div>
+    	<!-- Insert code for Sign Up modal here -->
+
+        <div id="myModal1" class="modal1">
+
+                <!-- Modal content -->
+                <div class="modal-content1">
+                  <span class="close1">&times;</span>
+                  <h1 id="head1">Get Started</h1>
+                  <form><h3 class="sh6">Name</h3>
+                    <input type="text" placeholder="Enter your name" required>
+                    <h3 class="sh6">Username</h3>
+                    <input type="text" placeholder="Enter your username" required>
+                    <h3 class="sh6">Password</h3>
+                    <input type="password" placeholder="Enter your password" required>
+                    <h3 class="sh6">Confirm Password</h3>
+                    <input type="password" placeholder="Re-enter your password" required><br>
+                    <button id="sub1">Sign Up</button> </form>
+                </div>
+              
+              </div>
+        <!-- Insert code for Create Post modal here -->
+        <div id="myModal2" class="modal2">
+
+            <!-- Modal content -->
+            <div class="modal-content2">
+              <span class="close2">&times;</span>
+              <h1 id="head1">Pen Your Post</h1>
+              <form>
+                  <br>
+              <span id="head1">Title</span><br>
+              <input type="textbox" id="title1" placeholder="Enter title of your post">
+              <br><br>
+              <span id="head1">Contents</span><br>
+              <input type="textbox" id="content" placeholder="Enter the contents of your post">
+              <button id="sub2">Create</button><br> </form>
+            </div>          
+          </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="scripts\common.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="scripts\index.js"></script>
+
+</body>
 </html>
